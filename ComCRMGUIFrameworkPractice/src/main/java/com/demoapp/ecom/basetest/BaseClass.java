@@ -41,7 +41,7 @@ public class BaseClass {
 			System.out.println("Error :" + e.getMessage());
 			e.printStackTrace();
 		}
-	}
+	} 
 
 	@BeforeClass(groups = { "smokeTest", "regressionTest" })
 	public void configBC() {

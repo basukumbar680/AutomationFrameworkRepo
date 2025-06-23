@@ -36,7 +36,7 @@ public class CreateOrgTest extends BaseClass {
 		op.getCreateNewOrganizationImg().click();
 
 		// Enter all the details & create new organization
-		UtilityClassObject.getTest().log(Status.INFO, orgName+"===>Enter all the details & create new organization");
+		UtilityClassObject.getTest().log(Status.INFO, orgName + "===>Enter all the details & create new organization");
 		CreateNewOrganizationPage cnop = new CreateNewOrganizationPage(driver);
 		cnop.createOrganization(orgName);
 
